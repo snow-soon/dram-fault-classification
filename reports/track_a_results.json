@@ -1,0 +1,24 @@
+{
+  "RandomForest": {
+    "accuracy": 0.9872,
+    "roc_auc_macro": 0.998,
+    "per_class_recall": {
+      "Normal": 0.9995,
+      "Cell_Failure": 0.8367,
+      "Retention_Failure": 0.8533,
+      "Bridge_Defect": 0.7433,
+      "Open_Circuit": 0.865
+    }
+  },
+  "GradientBoosting": {
+    "accuracy": 0.984,
+    "roc_auc_macro": 0.9892,
+    "per_class_recall": {
+      "Normal": 0.9996,
+      "Cell_Failure": 0.8167,
+      "Retention_Failure": 0.7667,
+      "Bridge_Defect": 0.67,
+      "Open_Circuit": 0.84
+    }
+  }
+}

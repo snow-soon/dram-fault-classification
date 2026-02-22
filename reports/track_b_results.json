@@ -1,0 +1,26 @@
+{
+  "Isolation_Forest": {
+    "roc_auc": 0.9995,
+    "pr_auc": 0.9988,
+    "fault_recall": 0.9993,
+    "false_positive_rate": 0.0774,
+    "per_fault_detection": {
+      "Cell_Failure": 0.9993,
+      "Retention_Failure": 0.9993,
+      "Bridge_Defect": 0.9987,
+      "Open_Circuit": 1.0
+    }
+  },
+  "Autoencoder": {
+    "roc_auc": 0.9962,
+    "pr_auc": 0.9937,
+    "fault_recall": 0.9844,
+    "false_positive_rate": 0.0533,
+    "per_fault_detection": {
+      "Cell_Failure": 0.9927,
+      "Retention_Failure": 0.9873,
+      "Bridge_Defect": 0.9553,
+      "Open_Circuit": 0.999
+    }
+  }
+}
